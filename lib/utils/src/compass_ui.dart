@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import '../flutter_sensor_compass.dart';
+import '../smooth_compass.dart';
 double preValue=0;
 double turns=0;
 typedef WidgetBuilder=Widget Function(BuildContext context,AsyncSnapshot<CompassModel>? compassData,Widget compassAsset);
