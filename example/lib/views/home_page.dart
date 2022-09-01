@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.blue.withOpacity(.7)
             ),
-            child: Divider(
+            child: const Divider(
               thickness: 1,
               color: Colors.white,
             ),
