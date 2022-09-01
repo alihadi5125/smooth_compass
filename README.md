@@ -6,7 +6,7 @@
 
 Customizable flutter package to find direction using device motion sensors.
 
-| ![Image](https://raw.githubusercontent.com/aleksanderwozniak/table_calendar/assets/table_calendar_styles.gif) | ![Image](https://raw.githubusercontent.com/aleksanderwozniak/table_calendar/assets/table_calendar_builders.gif) |
+| ![Image](https://github.com/alihadi5125/screenshots/blob/main/ezgif.com-gif-maker.gif?raw=true) | ![Image](https://github.com/alihadi5125/screenshots/blob/main/ezgif.com-gif-maker%20(1).gif?raw=true) |
 | :------------: | :------------: |
 | **TableCalendar** with custom styles | **TableCalendar** with custom builders |
 
