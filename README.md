@@ -27,7 +27,7 @@ Add the following line to `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  smooth_compass: ^0.0.1
+  smooth_compass: ^1.0.1
 ```
 
 ### Basic setup
