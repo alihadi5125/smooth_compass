@@ -27,7 +27,7 @@ Add the following line to `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  smooth_compass: ^1.0.1
+  smooth_compass: ^1.0.2
 ```
 
 ### Basic setup
@@ -84,4 +84,3 @@ for any queries or issue contact at:
 * alihadi5125@gmail.com
 * fadiktk000@gmail.com
 
-Adding the following code to the calendar widget will allow it to respond to user's taps, marking the tapped day as selected:
