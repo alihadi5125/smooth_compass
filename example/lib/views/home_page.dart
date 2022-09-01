@@ -12,6 +12,18 @@ class HomePage extends StatelessWidget {
           rotationSpeed: 200,
           height: 300,
           width: 300,
+          compassAsset: Container(
+            width: 200,
+            height: 200,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: Colors.blue.withOpacity(.7)
+            ),
+            child: Divider(
+              thickness: 1,
+              color: Colors.white,
+            ),
+          ),
           compassBuilder: (context,AsyncSnapshot<CompassModel>? compassData,Widget compassAsset){
             return compassAsset;
           },
