@@ -57,7 +57,7 @@ SmoothCompass(
   ),
 ```
 
-**Default Widget**:
+**Custom Widget**:
 ```dart
 SmoothCompass(
  rotationSpeed: 200,
@@ -80,8 +80,10 @@ SmoothCompass(
   ),
 ```
 
-#### Adding interactivity
+#### Support
 
-You will surely notice that previously set up calendar widget isn't quite interactive - you can only swipe it horizontally, to change the currently visible month. While it may be sufficient in certain situations, you can easily bring it to life by specifying a couple of callbacks.
+for any queries or issue contact at:
+* alihadi5125@gmail.com
+* fadiktk000@gmail.com
 
 Adding the following code to the calendar widget will allow it to respond to user's taps, marking the tapped day as selected:
