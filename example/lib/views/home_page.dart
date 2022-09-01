@@ -9,6 +9,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: SmoothCompass(
+          rotationSpeed: 200,
           height: 300,
           width: 300,
           compassBuilder: (context,AsyncSnapshot<CompassModel>? compassData,Widget compassAsset){
