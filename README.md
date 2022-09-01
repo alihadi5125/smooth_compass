@@ -8,7 +8,7 @@ Customizable flutter package to find direction using device motion sensors.
 
 | ![Image](https://github.com/alihadi5125/screenshots/blob/main/ezgif.com-gif-maker%20(3).gif?raw=true) | ![Image](https://github.com/alihadi5125/screenshots/blob/main/ezgif.com-gif-maker%20(1).gif?raw=true) |
 | :------------: | :------------: |
-| **TableCalendar** with custom styles | **TableCalendar** with custom builders |
+| **SmoothCompass** with default Widget | **SmoothCompass** with custom Widget |
 
 ## Features
 
