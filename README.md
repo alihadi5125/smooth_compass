@@ -1,7 +1,5 @@
 # Smooth Compass
 
-[![Pub Package](https://img.shields.io/pub/v/table_calendar.svg?style=flat-square)](https://pub.dev/packages/smooth_compass)
-
 [comment]: <> ([![Awesome Flutter]&#40;https://img.shields.io/badge/Awesome-Flutter-52bdeb.svg?longCache=true&style=flat-square&#41;]&#40;https://github.com/Solido/awesome-flutter&#41;)
 
 Customizable flutter package to find direction using device motion sensors.
