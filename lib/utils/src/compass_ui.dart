@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../smooth_compass.dart';
 double preValue=0;
 double turns=0;
-///custom callback for building widgets
+///custom callback for building widget
 typedef WidgetBuilder=Widget Function(BuildContext context,AsyncSnapshot<CompassModel>? compassData,Widget compassAsset);
 class SmoothCompass extends StatelessWidget {
   final WidgetBuilder compassBuilder;
