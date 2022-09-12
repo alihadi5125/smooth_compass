@@ -17,38 +17,38 @@ class SmoothCompass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<CompassModel>(
-        stream: Compass().compassUpdates(interval: const Duration(milliseconds: -1,),azimuthFix: 0.0),
-        builder: (context,AsyncSnapshot<CompassModel> snapshot){
-          if(compassAsset==null){
-            if(snapshot.connectionState==ConnectionState.waiting)
-              {
-                return const CircularProgressIndicator();
-              }
-            if(snapshot.hasError)
-              {
-                return Text(snapshot.error.toString());
-              }
+      stream: Compass().compassUpdates(interval: const Duration(milliseconds: -1,),azimuthFix: 0.0),
+      builder: (context,AsyncSnapshot<CompassModel> snapshot){
+        if(compassAsset==null){
+          if(snapshot.connectionState==ConnectionState.waiting)
+          {
+            return const CircularProgressIndicator();
+          }
+          if(snapshot.hasError)
+          {
+            return Text(snapshot.error.toString());
+          }
           return compassBuilder(context,snapshot,_defaultWidget(snapshot));
+        }
+        else{
+          if(snapshot.connectionState==ConnectionState.waiting)
+          {
+            return const CircularProgressIndicator();
           }
-          else{
-              if(snapshot.connectionState==ConnectionState.waiting)
-              {
-                return const CircularProgressIndicator();
-              }
-              if(snapshot.hasError)
-              {
-                return Text(snapshot.error.toString());
-              }
-            return compassBuilder(context,snapshot,AnimatedRotation(
-                turns: snapshot.data!.turns*-1, duration: Duration(milliseconds: rotationSpeed!),
-              child: compassAsset!,
-            ),
-            );
+          if(snapshot.hasError)
+          {
+            return Text(snapshot.error.toString());
           }
-        },
-      );
+          return compassBuilder(context,snapshot,AnimatedRotation(
+            turns: snapshot.data!.turns*-1, duration: Duration(milliseconds: rotationSpeed!),
+            child: compassAsset!,
+          ),
+          );
+        }
+      },
+    );
   }
-  
+
   Widget _defaultWidget(AsyncSnapshot<CompassModel> snapshot)
   {
     return AnimatedRotation(
