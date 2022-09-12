@@ -1,5 +1,5 @@
 name: smooth_compass
-description: compass with smooth rotation for android and ios
+description: smooth compass with animated rotation and custom widgets support for both(android and ios)
 version: 1.0.2
 homepage: https://github.com/alihadi5125/smooth_compass
 
